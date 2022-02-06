@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>hw01</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="images/logo.png" class="logotype" />
+        </div>
+        <nav class="navigation">
+            <div class="navigation-container">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#slider" class="navigation__link">Slider</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#text" class="navigation__link">Random Text</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#accordion" class="navigation__link">Accordion</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#form" class="navigation__link">Form</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+    
+        <section class="section slider-section" id="slider">
+            <div class="container">
+                <h2 class="title">Slider</h2>
+                <div id="slider">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="slide slide-1">
+                                    <div class="slide-content"></div>
+                                </div>
+                
+                                <div class="slide slide-2">
+                                    <div class="slide-content"></div>
+                                </div>
+                
+                                <div class="slide slide-3">
+                                    <div class="slide-content"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section text-section" id="text"> 
+            <div class="text-container container">
+                <h2 class="title">Random text</h2>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit similique ad magnam illo sed sunt nobis 
+                    facere accusantium accusamus quidem culpa velit impedit, iste ipsa explicabo veritatis. Harum repellat dicta 
+                    deleniti dolores est alias nihil ab! Voluptate exercitationem magni est, quod eos ducimus quis iste praesentium. 
+                    Tempora quia asperiores omnis quos fugit maxime sit aspernatur magni nulla autem, harum, soluta necessitatibus? Nulla, 
+                    in voluptatem. Deleniti possimus assumenda minima fugit eos libero repellat enim numquam. Temporibus, atque minus 
+                    voluptatum corporis enim incidunt laudantium vero magnam alias, voluptatem possimus rerum aliquam nulla consequuntur 
+                    quibusdam accusamus. Numquam error nesciunt in velit iusto autem quasi expedita, 
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target=_blank alt="*">molestias non</a> ad sunt, laudantium saepe 
+                    nisi perferendis quis sequi magni aut itaque voluptas. Laborum harum illo, voluptas facilis assumenda odit architecto, 
+                    magnam eligendi doloremque facere provident beatae incidunt officia praesentium quasi dignissimos sint magni. Consequuntur, 
+                    ducimus commodi provident maxime cupiditate consequatur aspernatur magni nam eius asperiores quam beatae vitae doloribus, impedit 
+                    ullam ipsum laudantium id officiis.
+                    </p>
+            </div>
+        </section>
+
+        <section class="section accordion-section" id="accordion">
+            <h2 class='accordion-title title'>Accordion</h2>
+            <div class="container">
+                <div class="accordion-wrapper">
+                    <div class="accordion-item">
+                        <input class="item-input" type="checkbox" id="item-1" />
+                        <label class="item-label" for="item-1"><span>CSS practice</span></label>
+                
+                        <div class="item-content">
+                            <h3 class="item-title">Lorem, ipsum dolor.</h3>
+                            <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Est molestiae, totam similique ipsa, recusandae tempore corrupti excepturi
+                                sit, ullam nulla quaerat rem atque eligendi fugiat Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.</p>
+                        </div>
+                    </div>
+                
+                    <div class="accordion-item">
+                        <input class="item-input" type="checkbox" id="item-2" />
+                        <label class="item-label" for="item-2"><span>CSS practice</span></label>
+                
+                        <div class="item-content">
+                            <h3 class="item-title">Lorem, ipsum dolor.</h3>
+                            <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Est molestiae, totam similique ipsa, recusandae tempore corrupti excepturi
+                                sit, ullam nulla quaerat rem atque eligendi fugiat Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.</p>
+                        </div>
+                    </div>
+                
+                    <div class="accordion-item">
+                        <input class="item-input" type="checkbox" id="item-3" />
+                        <label class="item-label" for="item-3"><span>CSS practice</span></label>
+                
+                        <div class="item-content">
+                            <h3 class="item-title">Lorem, ipsum dolor.</h3>
+                            <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Est molestiae, totam similique ipsa, recusandae tempore corrupti excepturi
+                                sit, ullam nulla quaerat rem atque eligendi fugiat Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.</p>
+                        </div>
+                    </div>
+                
+                    <div class="accordion-item">
+                        <input class="item-input" type="checkbox" id="item-4" />
+                        <label class="item-label" for="item-4"><span>CSS practice</span></label>
+                
+                        <div class="item-content">
+                            <h3 class="item-title">Lorem, ipsum dolor.</h3>
+                            <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Est molestiae, totam similique ipsa, recusandae tempore corrupti excepturi
+                                sit, ullam nulla quaerat rem atque eligendi fugiat Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section form-section" id="form">
+            <div class="form-container container">
+                <h2 class="title">Form</h2>
+                <form class="user-form" id="user-form">
+                    <div class="input-container">
+                        <label class="label" for="name">Name</label>
+                        <input class="input" id="name" type="text" name="name" required placeholder="Enter you name..." />
+                        
+                        <label class="label" for="email">Email</label>
+                        <input class="input" id="email" type="email" name="email" required placeholder="Enter you email..." maxlength="30" />
+                        
+                        <label class="label" for="password">Password</label>
+                        <input class="input" id="password" type="password" name="password" required placeholder="Enter you password..." />
+                    </div>
+
+                    <p class="list-label">Choose technologies from the list below:</p>
+                    <ul class="form-list">
+                        
+                        <li class="form-item">
+                            <span>React</span>
+                            <label class="tech-label" for="react"></label>
+                            <input class="tech-input" id="react" name="react" type="checkbox">
+                        </li>
+                        <li class="form-item">
+                            <span>Java Script</span>
+                            <label class="tech-label" for="js"></label>
+                            <input class="tech-input" id="js" name="js" type="checkbox">
+                        </li>
+                        <li class="form-item">
+                            <span>Node</span>
+                            <label class="tech-label" for="node"></label>
+                            <input class="tech-input" id="node" name="node" type="checkbox">
+                        </li>
+                        <li class="form-item">
+                            <span>Redux</span>
+                            <label class="tech-label" for="redux"></label>
+                            <input class="tech-input" id="redux" name="redux" type="checkbox">
+                        </li>
+                        <li class="form-item">
+                            <span>Vue</span>
+                            <label class="tech-label" for="vue"></label>
+                            <input class="tech-input" id="vue" name="vue" type="checkbox">
+                        </li>
+                    </ul>
+                    <div class="button-container">
+                        <button class="form-button" type="submit">Submit</button>
+                        <button class="form-button" type="reset">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="cr-container container">
+                <p class="cr-text">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+            </div>
+        </footer>
+    </main>
+    
+    
+</body>
+</html>
